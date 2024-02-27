@@ -1,0 +1,25 @@
+.SubAccordian{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    border-top: 0.5px solid grey;
+    background-color: rgb(255, 255, 255);
+   
+}
+.SubAccordian .titleAndDrop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.SubAccordian .titleAndDrop .title{
+    font-size: 15px;
+    font-weight: bold;
+}
+.SubAccordian .titleAndDrop .drop{
+    height: 15px;
+    width: 15px;
+    color: rgb(33, 32, 32);
+    cursor: pointer;
+}

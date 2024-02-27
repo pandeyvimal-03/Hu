@@ -1,0 +1,100 @@
+.restaurantDetail{
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.restaurantDetail .sec1{
+   padding: 15px 0px;
+   border-bottom: 1px dotted grey;
+   color: rgb(88, 82, 82);
+   font-size: 12px;
+   font-weight: bold;
+}
+.restaurantDetail .sec1 .restaurantIdentity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    
+}
+
+.restaurantDetail .sec1 .restaurantIdentity div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+}
+.restaurantDetail .sec1 .restaurantIdentity .identitySec{
+    padding: 15px 0px;
+    
+}
+.restaurantDetail .sec1 .restaurantIdentity .RestName{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    padding: 5px 0px;
+
+}
+
+.restaurantDetail .sec1 .restaurantIdentity .ratingSec{
+    border: 1px solid grey;
+    padding: 3px 5px;
+    opacity: 0.8;
+}
+
+.restaurantDetail .sec1 .restaurantIdentity div .rating{
+    border-bottom: 0.5px solid rgb(163, 159, 159);
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(2, 54, 2);
+    padding: 6px;
+}
+
+.restaurantDetail .sec1 .restaurantIdentity div .rating img{
+    height: 25px;
+    width: 25px;
+}
+
+.restaurantDetail .sec2 {
+    padding: 15px 0px;
+    border-bottom: 1px dotted grey;
+}
+
+.restaurantDetail .sec2 .timeAndPrice{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    opacity: 0.9;
+}
+
+.restaurantDetail .sec2 .timeAndPrice .time{
+    margin-right: 20px;
+}
+.restaurantDetail .sec3{
+    background-color: rgb(235, 235, 236);
+    margin-top: 20px;
+    padding-top: 40px;
+    
+    
+}
+
+@media screen and (max-width : 600px) {
+    .restaurantDetail{
+        width: 95%;
+        padding-bottom: 50px;
+    }
+    .restaurantDetail .sec1 .restaurantIdentity .RestName{
+        padding-right: 14px;
+        font-size: 17px;
+    }
+    .restaurantDetail .sec1 .restaurantIdentity div .rating img{
+        height: 20px;
+        width: 20px;
+    }
+}

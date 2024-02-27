@@ -1,0 +1,14 @@
+.anotherAccord{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+    background-color: rgb(255, 255, 255);
+   
+}
+.anotherAccord .title{
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px 10px;
+}

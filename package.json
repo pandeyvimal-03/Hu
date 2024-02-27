@@ -1,0 +1,24 @@
+{
+  "name": "swiggyapp",
+  "version": "1.0.0",
+  "description": "This is food ordering app ",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel index.html"
+  },
+  "author": "Vimal Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.1.0",
+    "parcel": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-places-autocomplete": "^7.3.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.21.3"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

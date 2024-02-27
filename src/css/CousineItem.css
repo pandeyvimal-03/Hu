@@ -1,0 +1,9 @@
+.DishesItem img{
+     height: 160px;
+     width: 160px;
+     margin: 0px 3px;
+     padding: 6px;
+}
+.DishesItem  img:hover{
+ cursor: pointer;
+}

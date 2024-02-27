@@ -1,0 +1,76 @@
+.homePageShimmer .title1{
+   height: 20px;
+   width: 350px;
+   margin: 30px 0px;
+   background-color: rgb(237, 241, 243);
+}
+
+.homePageShimmer .circularCard{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.homePageShimmer .circularCard .card{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: rgb(237, 241, 243);
+}
+.homePageShimmer .squarCard{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.homePageShimmer .squarCard .card{
+    height: auto;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    border: 0.5px solid rgb(216, 213, 213);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.homePageShimmer .squarCard .card .imageSection{
+
+    width: 100%;
+    height: 100px;
+    background-color: rgb(237, 241, 243);
+}
+.homePageShimmer .squarCard .card .name{
+    margin: 5px 5px;
+    height: 20px;
+    width: 100px;
+    background-color: rgb(237, 241, 243);
+}
+.homePageShimmer .squarCard .card .ratLogoSection{
+    margin: 3px 5px;
+    display: flex;
+    align-items: center;
+    
+}
+.homePageShimmer .squarCard .card .ratLogoSection .logo{
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(237, 241, 243);
+    margin-right: 10px;
+}
+.homePageShimmer .squarCard .card .ratLogoSection .rating{
+
+    height: 20px;
+    width: 80px;
+    background-color: rgb(237, 241, 243);
+}
+.homePageShimmer .squarCard .card .locatSection{
+    margin: 5px 5px;
+    height: 20px;
+    width: 140px;
+    background-color: rgb(237, 241, 243);
+  
+}

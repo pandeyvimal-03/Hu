@@ -1,0 +1,25 @@
+.accordian{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+   
+}
+.accordian .titleAndDrop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.accordian .titleAndDrop .title{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.accordian .titleAndDrop .drop{
+    height: 20px;
+    width: 20px;
+    color: black;
+    cursor: pointer;
+}

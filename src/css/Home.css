@@ -1,0 +1,157 @@
+.container{
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+
+   
+}
+.section0{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-bottom: 0.3px solid rgb(223, 221, 221);
+    position: relative;
+}
+.section0 .section0Item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-bottom: 50px;
+    position: relative;
+    scroll-behavior: smooth;
+}
+.section0 .section0Item::-webkit-scrollbar{
+    display: none;
+}
+.section0 h2{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(9, 9, 9);
+    padding: 15px 5px;
+    font-family: 'arial','Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+.section1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-bottom: 0.3px solid rgb(223, 221, 221);
+    position: relative;
+
+}
+
+.scrollButton{
+    position: absolute;
+    right: 5px;
+    top: 18px;
+    display: flex;
+}
+.scrollButton button{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    outline: none;
+    border-style: none;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(213, 213, 213);
+    cursor: pointer;
+}
+.section1 h2{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(9, 9, 9);
+    padding: 15px 5px;
+    font-family: 'arial','Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+.section2 h2{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(11, 11, 11);
+    padding: 15px 5px;
+    font-family: 'arial','Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+.verticalSection{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.horizontalSection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow-y: hidden;
+  overflow-x: auto;
+    margin-bottom: 50px;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.horizontalSection::-webkit-scrollbar{
+       display: none;
+       /* margin-top: 80px;
+       width: 10px;
+       height: 5px;
+       background-color: rgb(160, 160, 160); */
+}
+/* .horizontalSection::-webkit-scrollbar-thumb {
+    background-color: #df660a; // Color of the thumb 
+    border-radius: 4px;
+  
+  } */
+
+
+  @media screen and (max-width : 600px) {
+    .container{
+        width: 95%;
+    }
+   
+    .section0 .section0Item{
+       
+        margin-bottom: 20px;
+    }
+    .section0 h2{
+        font-size: 20px;
+    }
+   
+    .section1 h2{
+        margin-bottom: 5px ;
+        font-size: 20px;
+    }
+    .scrollButton{
+        position: relative;
+        width: 95%;
+        top: 0;
+        right: 0;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+        padding: 8px 0;
+        margin: auto;
+    }
+    .scrollButton button{
+        margin-right: 0;
+    }
+    
+    .verticalSection{
+        flex-direction: column;
+        margin: auto;
+    }
+   
+    .section2{
+        padding-bottom: 50px;
+        padding-left: 20px;
+    }
+    .section2 h2{
+        font-size: 20px;
+    }
+  }

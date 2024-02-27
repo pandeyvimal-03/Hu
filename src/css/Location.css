@@ -1,0 +1,158 @@
+.locationPage{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(46, 44, 44, 0.7);
+    z-index: 2;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+}
+
+
+.Userlocation{
+    width: 33%;
+    height: 100%;
+    border-right: 2px solid rgba(141, 135, 135, 0.7);
+    background-color: white;
+    position: relative;
+    animation: slideInFromLeft 0.2s ease-out;
+}
+@keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+.locationSection{
+    
+    width: 65%;
+    /* border: 1px solid black; */
+    top: 50px;
+    left: 40px;
+   position: absolute;
+    
+}
+.cutImage{
+    margin-bottom: 20px;
+}
+
+.cutImage img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.slideOut{
+    animation: slideOutToLeft 0.3s ease-in-out;
+}
+@keyframes slideOutToLeft {
+    
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(-100%);
+      opacity: 0.2;
+    }
+  }
+
+.cutImage img:hover{
+    
+    transform: scale(1.2);
+}
+.locationInput{
+    width: 100%;
+    border: 1px solid rgb(100, 99, 99 , 0.7);
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.locationInput input {
+    width: 80%;
+    padding: 10px 10px;
+   font-size: 15px;
+    font-weight: bold;
+    border-style: none;
+    outline: none;
+    caret-color: rgb(228, 102, 12);
+    background-color: white;
+    
+}
+.locationInput span{
+    color: rgb(255, 119, 0);
+    font-size: 13px;
+    font-weight: bolder;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    vertical-align: middle;
+    right: 15px;
+}
+.currentLocation{
+    width: 100%;
+    height: auto;
+    padding: 20px 18px;
+    border: 1px solid rgb(100, 99, 99 , 0.7);
+    margin-top: 20px;
+    display: flex;
+    cursor: pointer;
+   
+
+}
+.currentLocation .imageSection img{
+    height: 20px;
+    width: 20px;
+    /* padding: 0px 5px; */
+    margin-right: 5px;
+   
+}
+.currentLocation .textSection span{
+   
+    display: block;
+    padding: 0px 5px;
+}
+.currentLocation .textSection span:first-child{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(32, 31, 31);
+}
+.currentLocation .textSection  span:nth-child(2){
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(44, 43, 43);
+}
+.currentLocation:hover .textSection span:first-child {
+   color:  rgb(255, 119, 0);
+}
+
+@media screen and (max-width : 600px) {
+    
+   
+    .Userlocation{
+        width: 100%;
+    }
+    .locationSection{
+        width: 80%;
+    }
+    .slideOut{
+        animation: slideOutToLeft 0.3s ease-in-out;
+    }
+    @keyframes slideOutToLeft {
+        
+        from {
+          transform: translateX(0);
+          
+        }
+        to {
+          transform: translateX(-100%);
+          
+        }
+      }
+}
